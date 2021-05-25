@@ -7,6 +7,7 @@ int ft_str_is_numeric(char *str);
 int main(void) {
 	char stringNonNumeric[] = "AabBcC#@dDeEfFgGzZ";
 	char stringNumeric[] = "0123456789";
+	char stringEmpty[] = "";
 
 	printf("\nstringNumeric  = %s | stringNonNumeric  = %s \n\n",stringNumeric, stringNonNumeric);
 	
@@ -21,6 +22,13 @@ int main(void) {
 		printf("FAIL Non Numeric Test (1)\n");
 	else
 		printf("PASS Non Numeric Test (0)\n");
+
+	
+	printf("\nCalling ft_str_is_numeric(empty);\n");
+	if (ft_str_is_numeric(stringEmpty))
+		printf("PASS Empty String Test (1)\n");
+	else
+		printf("FAIL Empty String Test (0)\n");
 
 	return (0);
 }
