@@ -18,7 +18,7 @@ int main(void) {
 	else
 		printf("FAIL Alpha Test (0)\n");
 
-	printf("\nCalling ft_str_is_alpha(stringNumeric);\n");
+	printf("\nCalling ft_str_is_alpha(stringNonAlpha);\n");
 	if (ft_str_is_alpha(stringNonAlpha))
 		printf("FAIL Non Alpha Test (1)\n");
 	else
