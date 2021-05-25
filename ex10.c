@@ -6,15 +6,15 @@ unsigned int ft_strlcpy(char *dest, char *src, unsigned int size);
 
 int main(void) {
 	
-	char string[] = "0123456789";
-	char ret[] = "Output";
+	char string[] = "123456789";
+	char ret[] = "*********";
 	unsigned int n = 10;
 
 	printf("\nsrc String = %s | dest String %s | size = %u \n",string,ret,n);
 	printf("Calling ft_strlcpy(dest,src,%u);\n",n);
 	printf("Return size = %u | src String = %s | dest String %s \n\n",ft_strlcpy(ret,string,n),string,ret);
 
-	char ret1[] = "Output";
+	char ret1[] = "*********";
 	n = 5;
 
 	printf("\nsrc String = %s | dest String %s | size = %u \n",string,ret1,n);
