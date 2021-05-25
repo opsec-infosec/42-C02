@@ -21,4 +21,4 @@ And most importantly, have a discussion with the person you are evaluating.  You
 
 ENJOY..
 
-**Note:  If you find a test case or bug, please let me know so I can fix them and improve the test cases **
+**Note:  If you find a test case or bug, please let me know so I can fix them and improve the test cases
