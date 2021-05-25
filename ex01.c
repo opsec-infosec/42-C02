@@ -12,7 +12,7 @@ int main(void) {
 	unsigned int len  = 7;
 
 	printf("return = %s | dest = %s | src = %s | n = %u\n",ret_string,dest_string,src_string,len);
-	printf("Calling return =  ft_strcpy(dest_string,src_string,n);\n");
+	printf("Calling return =  ft_strncpy(dest_string,src_string,n);\n");
 	printf("return = %s | dest = %s | src = %s | n = %u\n", ft_strncpy(dest_string,src_string,len),dest_string,src_string,len);
 
 	return (0);
