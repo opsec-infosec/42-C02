@@ -6,7 +6,7 @@ int ft_str_is_printable(char *str);
 
 int main(void) {
 	
-	char stringPrintable[] = {'A','z','0','9','~',0x7f};
+	char stringPrintable[] = {'A','z','0','9','~'};
 	char stringNonPrintable[] = {0x07,0x01,0x37};
 	char empty[] = "";
 
